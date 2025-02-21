@@ -7,6 +7,8 @@ import { create } from "zustand";
 export interface TConfig {
   x_coin_url: string;
   buy_url: string;
+  telegram_url: string;
+  chart_url: string;
 }
 
 interface TCreateStoreParams {

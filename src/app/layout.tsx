@@ -13,10 +13,10 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "App Name",
+  title: "SMAUG",
   description: "App Description",
   openGraph: {
-    title: "App Name",
+    title: "SMAUG",
     description: "App Description",
     url: "/",
     images: [
