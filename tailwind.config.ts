@@ -15,7 +15,7 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        dm: ["var(--font-dm)"],
+        handwriting: ["var(--font-handwriting)"],
       },
       container: {
         center: true,
@@ -36,7 +36,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-motion")],
 };
 
 export default config;

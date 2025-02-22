@@ -26,7 +26,7 @@ export const Section3 = () => {
         alt="smaug"
         width={1000}
         height={1000}
-        className="absolute right-[5%] bottom-[1%] w-[40vw]"
+        className="absolute right-[5%] bottom-[1%] w-[40vw] motion-preset-pop "
       />
     </div>
   );

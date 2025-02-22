@@ -2,14 +2,22 @@ import Aos from "@/components/aos";
 import Providers from "@/components/providers";
 import { createClient } from "@/utils/supabase/server";
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import { twMerge } from "tailwind-merge";
 import "./globals.css";
 
-const dmSans = DM_Sans({
-  weight: ["400", "700"],
-  subsets: ["latin"],
-  variable: "--font-dm",
+const handwriting = localFont({
+  src: [
+    {
+      path: "../../public/fonts/handwriting.ttf",
+      weight: "400",
+    },
+    {
+      path: "../../public/fonts/handwriting.ttf",
+      weight: "700",
+    },
+  ],
+  variable: "--font-handwriting",
 });
 
 export const metadata: Metadata = {
@@ -40,7 +48,7 @@ export default async function RootLayout({
     <>
       <Aos />
       <html lang="en" className="relative">
-        <body className={twMerge(dmSans.variable, "font-dm antialiased")}>
+        <body className={twMerge(handwriting.variable, "font-handwriting antialiased")}>
           <Providers config={configs?.[0] || null}>{children}</Providers>
         </body>
       </html>
