@@ -22,10 +22,10 @@ const handwriting = localFont({
 
 export const metadata: Metadata = {
   title: "SMAUG",
-  description: "App Description",
+  description: "I'm the fire you don't see coming!",
   openGraph: {
     title: "SMAUG",
-    description: "App Description",
+    description: "I'm the fire you don't see coming!",
     url: "/",
     images: [
       {
@@ -48,7 +48,12 @@ export default async function RootLayout({
     <>
       <Aos />
       <html lang="en" className="relative">
-        <body className={twMerge(handwriting.variable, "font-handwriting antialiased")}>
+        <body
+          className={twMerge(
+            handwriting.variable,
+            "font-handwriting antialiased",
+          )}
+        >
           <Providers config={configs?.[0] || null}>{children}</Providers>
         </body>
       </html>

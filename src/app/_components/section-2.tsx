@@ -29,16 +29,21 @@ export const Section2 = () => {
         className="absolute left-[50%] top-[15%] w-[50vw] -translate-x-1/2"
       />
 
-      <div className="absolute left-[49%] top-[23vw] z-50 h-8 w-[38vw] -translate-x-1/2 ">
-        <p className="text-[1vw] text-center font-bold">
-          Here comes $SMAUG! The adorable Dragon in a Unique world, Experience a
-          Great Art and Technology at the same time! No stress! Smaug embodies
-          the Fun of Trading Memecoins here in the space. It&apos;s not just about
-          coins - it&apos;s about building a community of explorers and dreamers.
-
+      <div className="absolute left-[49%] top-[23vw] z-50 h-8 w-[38vw] -translate-x-1/2">
+        <p className="text-center text-[1vw] font-bold">
+          I&apos;m not just a dragon of fire, I&apos;m Smaug, a companion in the
+          journey of life.
           <br />
           <br />
-          Join his journey and let the fun begin!
+          My flames don&apos;t scorch... they light the way for those who walk
+          beside me!
+          <br />
+          <br />
+          Together, we rise, fueled by ambition and bound by trust. I ignite the
+          dreams of those who dare to join me, and with every spark, I prove
+          that the greatest strength lies in the bonds we share. Life&apos;s
+          battles may be fierce, but with friendship in our hearts, we burn
+          brighter together.
         </p>
       </div>
 
