@@ -29,7 +29,7 @@ export const Section1 = () => {
       />
 
       <div className="absolute right-[10%] top-[3%] z-50 flex gap-4">
-        <Link href={xCoinUrl || ""} target="_blank">
+        <Link href={process.env.NEXT_X_URL || ""} target="_blank">
           <Image
             src={"/assets/section-1/x.png"}
             alt="x"
@@ -39,7 +39,7 @@ export const Section1 = () => {
           />
         </Link>
 
-        <Link href={telegramUrl || ""} target="_blank">
+        <Link href={process.env.NEXT_TELEGRAM_URL || ""} target="_blank">
           <Image
             src={"/assets/section-1/telegram.png"}
             alt="telegram"
@@ -49,7 +49,7 @@ export const Section1 = () => {
           />
         </Link>
 
-        <Link href={chartUrl || ""} target="_blank">
+        <Link href={process.env.NEXT_CHART_URL || ""} target="_blank">
           <Image
             src={"/assets/section-1/chart.png"}
             alt="chart"
