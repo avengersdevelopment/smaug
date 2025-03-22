@@ -49,16 +49,6 @@ export const Section1 = () => {
           />
         </Link>
 
-        <Link href={buyUrl || ""} target="_blank">
-          <Image
-            src={"/assets/section-1/pumpfun.png"}
-            alt="buy"
-            width={480}
-            height={480}
-            className="h-auto w-[4vw] hover:animate-shake"
-          />
-        </Link>
-
         <Link href={chartUrl || ""} target="_blank">
           <Image
             src={"/assets/section-1/chart.png"}
