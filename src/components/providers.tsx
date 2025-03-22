@@ -1,15 +1,21 @@
 "use client";
 
-import { ConfigProvider, TConfig } from "@/store/config";
+import { ConfigProvider } from "@/store/config";
 import { AppProgressBar } from "next-nprogress-bar";
 import React from "react";
 
 interface ProvidersProps {
   children: React.ReactNode;
-  config: TConfig;
 }
 
-export default function Providers({ children, config }: ProvidersProps) {
+export default function Providers({ children }: ProvidersProps) {
+  const config = {
+    x_coin_url: "https://x.com/coin",
+    buy_url: "https://coin.com/buy",
+    telegram_url: "https://t.me/coin",
+    chart_url: "https://coin.com/chart",
+  };
+
   return (
     <>
       <ConfigProvider config={config}>

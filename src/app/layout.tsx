@@ -1,6 +1,5 @@
 import Aos from "@/components/aos";
 import Providers from "@/components/providers";
-import { createClient } from "@/utils/supabase/server";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { twMerge } from "tailwind-merge";
@@ -41,9 +40,6 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const supabase = await createClient();
-  const { data: configs } = await supabase.from("configs").select();
-
   return (
     <>
       <Aos />
@@ -54,7 +50,7 @@ export default async function RootLayout({
             "font-handwriting antialiased",
           )}
         >
-          <Providers config={configs?.[0] || null}>{children}</Providers>
+          <Providers>{children}</Providers>
         </body>
       </html>
     </>

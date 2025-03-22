@@ -1,15 +1,9 @@
 "use client";
 
-import { useConfig } from "@/store/config";
 import Image from "next/image";
 import Link from "next/link";
 
 export const Section1 = () => {
-  const xCoinUrl = useConfig()((state) => state.config?.x_coin_url);
-  const buyUrl = useConfig()((state) => state.config?.buy_url);
-  const telegramUrl = useConfig()((state) => state.config?.telegram_url);
-  const chartUrl = useConfig()((state) => state.config?.chart_url);
-
   return (
     <div className="relative h-full w-full">
       <Image
@@ -97,7 +91,7 @@ export const Section1 = () => {
         alt="smaug-stick"
         width={1000}
         height={1000}
-        className="absolute right-[15%] top-[5%] z-30 w-[30vw] motion-preset-confetti "
+        className="motion-preset-confetti absolute right-[15%] top-[5%] z-30 w-[30vw]"
       />
 
       <Image
@@ -105,7 +99,7 @@ export const Section1 = () => {
         alt="butterfly-1"
         width={480}
         height={480}
-        className="absolute bottom-[40%] left-[4%] w-[6vw] motion-preset-wobble"
+        className="motion-preset-wobble absolute bottom-[40%] left-[4%] w-[6vw]"
       />
 
       <Image
@@ -113,7 +107,7 @@ export const Section1 = () => {
         alt="butterfly-2"
         width={480}
         height={480}
-        className="absolute bottom-[45%] right-[10%] w-[6vw] motion-preset-wobble"
+        className="motion-preset-wobble absolute bottom-[45%] right-[10%] w-[6vw]"
       />
 
       <Image
@@ -121,7 +115,7 @@ export const Section1 = () => {
         alt="bee"
         width={480}
         height={480}
-        className="absolute bottom-[45%] left-[45%] w-[7vw] motion-preset-wobble "
+        className="motion-preset-wobble absolute bottom-[45%] left-[45%] w-[7vw]"
       />
     </div>
   );
