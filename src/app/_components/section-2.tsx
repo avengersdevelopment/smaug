@@ -90,7 +90,7 @@ export const Section2 = () => {
             alt="stick-horizontal"
             width={1000}
             height={1000}
-            className="h-auto w-full"
+            className="h-auto w-[50%]"
           />
 
           <Image
@@ -98,7 +98,7 @@ export const Section2 = () => {
             alt="stick-horizontal"
             width={1000}
             height={1000}
-            className="h-auto w-full"
+            className="h-auto w-[50%]"
           />
         </div>
 
