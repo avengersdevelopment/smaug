@@ -23,14 +23,86 @@ export const Section2 = () => {
 
       <Image
         src={"/assets/section-2/about.png"}
-        alt="about"
-        width={1000}
-        height={1000}
-        className="absolute left-[50%] top-[15%] w-[50vw] -translate-x-1/2"
+        alt="fire"
+        width={800}
+        height={800}
+        className="motion-preset-pulse-sm absolute left-1/2 top-[15vw] w-[15vw] -translate-x-1/2"
       />
 
-      <div className="absolute left-[49%] top-[23vw] z-50 h-8 w-[38vw] -translate-x-1/2">
-        <p className="text-center text-[1vw] font-bold">
+      <div className="absolute left-[49%] top-[23vw] z-50 w-[38vw] -translate-x-1/2">
+        <div className="absolute left-0 top-0 flex w-full px-[2vw]">
+          <Image
+            src={"/assets/section-2/stick-horizontal.png"}
+            alt="stick-horizontal"
+            width={1000}
+            height={1000}
+            className="h-auto w-[50%]"
+          />
+
+          <Image
+            src={"/assets/section-2/stick-horizontal.png"}
+            alt="stick-horizontal"
+            width={1000}
+            height={1000}
+            className="h-auto w-[50%]"
+          />
+        </div>
+
+        <div className="absolute bottom-0 left-0 top-0 flex h-full w-[2vw] flex-col">
+          <Image
+            src={"/assets/section-2/stick-vertical.png"}
+            alt="stick-vertical"
+            width={1000}
+            height={1000}
+            className="h-full w-auto"
+          />
+
+          <Image
+            src={"/assets/section-2/stick-vertical.png"}
+            alt="stick-vertical"
+            width={1000}
+            height={1000}
+            className="h-full w-auto"
+          />
+        </div>
+
+        <div className="absolute bottom-0 right-0 top-0 flex h-full w-[2vw] flex-col">
+          <Image
+            src={"/assets/section-2/stick-vertical.png"}
+            alt="stick-vertical"
+            width={1000}
+            height={1000}
+            className="h-full w-auto"
+          />
+
+          <Image
+            src={"/assets/section-2/stick-vertical.png"}
+            alt="stick-vertical"
+            width={1000}
+            height={1000}
+            className="h-full w-auto"
+          />
+        </div>
+
+        <div className="absolute bottom-0 left-0 flex w-full px-[2vw]">
+          <Image
+            src={"/assets/section-2/stick-horizontal.png"}
+            alt="stick-horizontal"
+            width={1000}
+            height={1000}
+            className="h-auto w-full"
+          />
+
+          <Image
+            src={"/assets/section-2/stick-horizontal.png"}
+            alt="stick-horizontal"
+            width={1000}
+            height={1000}
+            className="h-auto w-full"
+          />
+        </div>
+
+        <p className="px-[3vw] pb-[5vw] pt-[6vw] text-center text-[1vw] font-bold">
           I&apos;m not just a dragon of fire, I&apos;m Smaug, a companion in the
           journey of life.
           <br />
@@ -44,6 +116,13 @@ export const Section2 = () => {
           that the greatest strength lies in the bonds we share. Life&apos;s
           battles may be fierce, but with friendship in our hearts, we burn
           brighter together.
+          <br />
+          <br />
+          我不仅是火焰之龙，我是史矛革，是人生旅途中的伙伴。
+          <br />
+          我的火焰不焚烧，而是为同行者照亮前路！
+          <br />
+          携手并进，志存高远，信任相连。我点燃梦想，证明真正的力量源于羁绊。人生战斗虽激烈，但有友情同行，我们将燃烧得更耀眼！
         </p>
       </div>
 
@@ -60,7 +139,7 @@ export const Section2 = () => {
         alt="smaug-sleeping"
         width={1000}
         height={1000}
-        className="absolute left-[4%] top-[40%] w-[40vw]"
+        className="absolute left-[4%] top-[46%] z-50 w-[35vw]"
       />
 
       <Image
@@ -76,7 +155,7 @@ export const Section2 = () => {
         alt="egg"
         width={1000}
         height={1000}
-        className="motion-preset-stretch absolute bottom-[20%] right-[28%] w-[15vw]"
+        className="motion-preset-stretch absolute bottom-[17%] right-[28%] z-50 w-[15vw]"
       />
 
       <Image
