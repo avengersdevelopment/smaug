@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     url: "/",
     images: [
       {
-        url: "/banner.png",
+        url: "/banner.webp",
         alt: "App Preview",
       },
     ],
