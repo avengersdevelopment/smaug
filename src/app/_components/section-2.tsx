@@ -14,7 +14,7 @@ export const Section2 = () => {
       />
 
       <Image
-        src={"/assets/section-2/bgs.png"}
+        src={"/assets/section-2/bg.png"}
         alt="bg"
         width={1000}
         height={1000}
