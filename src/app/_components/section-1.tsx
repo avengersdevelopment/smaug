@@ -7,7 +7,7 @@ export const Section1 = () => {
   return (
     <div className="relative h-full w-full">
       <Image
-        src={"/assets/section-1/header-bgs.png"}
+        src={"/assets/section-1/header-bg.png"}
         alt="header-bg"
         width={1000}
         height={1000}
