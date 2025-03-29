@@ -33,7 +33,7 @@ export const Section1 = () => {
           />
         </Link>
 
-        <Link href={process.env.NEXT_TELEGRAM_URL || ""} target="_blank">
+        {/* <Link href={process.env.NEXT_TELEGRAM_URL || ""} target="_blank">
           <Image
             src={"/assets/section-1/telegram.png"}
             alt="telegram"
@@ -41,7 +41,7 @@ export const Section1 = () => {
             height={480}
             className="h-auto w-[3.8vw] hover:animate-shake"
           />
-        </Link>
+        </Link> */}
 
         <Link href={process.env.NEXT_CHART_URL || ""} target="_blank">
           <Image
