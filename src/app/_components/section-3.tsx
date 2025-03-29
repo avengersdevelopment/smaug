@@ -6,7 +6,7 @@ export const Section3 = () => {
   return (
     <div className="relative h-full w-full -mt-[22%] -z-10">
       <Image
-        src={"/assets/section-3/bg.png"}
+        src={"/assets/section-3/bgs.png"}
         alt="bg"
         width={1000}
         height={1000}
